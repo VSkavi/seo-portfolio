@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavi VS-SEO Analyst Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Kavi VS — SEO Analyst with a frontend development background. Keyword research, on-page &amp; technical SEO, and hands-on project case studies.">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%8D%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet" ">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">
+        <span class="nav__brand-name">Kavi VS</span>
+        <span class="nav__brand-tag">SEO Analyst</span>
+      </a>
+
+      <nav class="nav__menu" id="nav-menu">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#tools" class="nav__link">Tools</a>
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#process" class="nav__link">Process</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <!-- TODO: point this at your actual resume file once it's hosted alongside this site -->
+        <a href="resume.pdf" download class="btn btn--sm btn--primary nav__resume">Résumé</a>
+      </nav>
+
+      <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu"
+        aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true">
+        <svg class="hero__sparkline" viewBox="0 0 600 120" preserveAspectRatio="none">
+          <polyline points="0,100 60,92 120,96 180,70 240,78 300,50 360,58 420,30 480,38 540,14 600,20" />
+        </svg>
+      </div>
+
+      <div class="hero__inner">
+        <p class="eyebrow">SEO Analyst</p>
+        <h1 class="hero__title">Kavi&nbsp;VS</h1>
+
+        <p class="hero__type-row">
+          <span class="hero__type-prefix">I help sites get found through</span>
+          <span class="type" id="typewriter" aria-live="polite"></span><span class="type-cursor"
+            aria-hidden="true"></span>
+        </p>
+
+        <p class="hero__desc">
+          MCA graduate with a frontend development background, now focused on SEO —
+          keyword strategy, on-page &amp; technical audits, and content that actually ranks. I build the sites,
+          and I know how to get them found.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#work" class="btn btn--primary">View my work</a>
+          <a href="resume.pdf" download class="btn btn--ghost">Download résumé</a>
+        </div>
+
+        <ul class="hero__meta">
+          <li>keyword-research</li>
+          <li>On-page SEO</li>
+          <li>Technical SEO</li>
+          <li>Off-page SEO</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section__inner about">
+        <div class="about__media reveal">
+          <img class="about__photo" src="images/kavi's profile.png" alt="Kavi VS">
+        </div>
+
+        <div class="about__copy reveal">
+          <p class="eyebrow">About</p>
+          <h2 class="h2">From building websites to getting them found</h2>
+          <p>
+            I started as a frontend developer-
+            Along the way I kept running into the same question: <em>the site works, but will anyone actually find
+              it?</em>
+            That question is what pulled me toward SEO.
+          </p>
+          <p>
+            I completed a structured SEO mentorship covering how Google crawls, renders, indexes and ranks
+            pages — sitemaps, robots.txt, canonical tags — and put it into practice by building and optimizing a
+            blog site myself, start to finish. I also run an independent keyword-research project in the home-fitness
+            niche, with a full keyword tracker, content briefs, and interlinked blog content mapped to search intent.
+          </p>
+          <p>
+            I can open the HTML, read the page structure,
+            and make the change myself.
+          </p>
+
+          <ul class="check-list">
+            <li>Structured, repeatable keyword research &amp; content workflows</li>
+            <li>Comfortable in code — can implement on-page fixes directly</li>
+            <li>Hands-on technical SEO experience, not just theory</li>
+            <li>Sheets/Excel-based tracking and reporting habit</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="section__inner">
+        <p class="eyebrow">Skills</p>
+        <h2 class="h2">What I bring to the table</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">SEO &amp; Technical</h3>
+            <ul class="dot-list">
+              <li>Keyword research</li>
+              <li>On-page SEO</li>
+              <li>Technical SEO</li>
+              <li>Off-page SEO</li>
+              <li>Conducting SEO audits</li>
+              <li>Optimizing webpages, blog content &amp; product descriptions</li>
+              <li>Competitive analysis</li>
+              <li>HTML / CSS</li>
+              <li>Generating comprehensive SEO reports</li>
+            </ul>
+          </div>
+
+          <div class="skill-card reveal">
+            <h3 class="skill-card__title">Soft Skills</h3>
+            <ul class="dot-list">
+              <li>Communication</li>
+              <li>Adaptability</li>
+              <li>Attention to detail</li>
+              <li>Content creation</li>
+              <li>Excellent written &amp; verbal communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOOLS ============ -->
+    <section class="section" id="tools">
+      <div class="section__inner">
+        <p class="eyebrow">Tools</p>
+        <h2 class="h2">Platforms &amp; tools I work with</h2>
+
+        <div class="tool-groups">
+
+          <div class="tool-group reveal">
+            <h3 class="tool-group__title">Research &amp; Keyword Strategy</h3>
+            <div class="tool-row">
+              <div class="tool" title="Google Keyword Planner"><img class="tool__logo"
+                  src="https://cdn.simpleicons.org/googleads" alt="" data-fallback="GKP"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Google
+                  Keyword Planner</span></div>
+              <div class="tool" title="SEMrush"><img class="tool__logo" src="https://cdn.simpleicons.org/semrush" alt=""
+                  data-fallback="SR"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>SEMrush</span>
+              </div>
+              <div class="tool" title="Ubersuggest"><img class="tool__logo"
+                  src="https://cdn.simpleicons.org/ubersuggest" alt="" data-fallback="UB"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Ubersuggest</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-group reveal">
+            <h3 class="tool-group__title">Analytics &amp; Auditing</h3>
+            <div class="tool-row">
+              <div class="tool" title="Google Search Console"><img class="tool__logo"
+                  src="https://cdn.simpleicons.org/googlesearchconsole" alt="" data-fallback="GSC"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Google
+                  Search Console</span></div>
+              <div class="tool" title="Google Analytics 4"><img class="tool__logo"
+                  src="https://cdn.simpleicons.org/googleanalytics" alt="" data-fallback="GA4"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Google
+                  Analytics 4</span></div>
+              <div class="tool" title="Screaming Frog"><img class="tool__logo"
+                  src="https://cdn.simpleicons.org/screamingfrog" alt="" data-fallback="SF"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Screaming
+                  Frog</span></div>
+            </div>
+          </div>
+
+          <div class="tool-group reveal">
+            <h3 class="tool-group__title">On-Page &amp; Chrome Extensions</h3>
+            <div class="tool-row">
+              <div class="tool" title="Google Chrome"><img class="tool__logo"
+                  src="https://cdn.simpleicons.org/googlechrome" alt="" data-fallback="CH"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Google
+                  Chrome</span></div>
+            </div>
+            <ul class="tag-list">
+              <li>SEO in 1 Click</li>
+              <li>SEO / AEO / GEO Checker</li>
+              <li>Detailed SEO</li>
+            </ul>
+          </div>
+
+          <div class="tool-group reveal">
+            <h3 class="tool-group__title">Content, Design &amp; Reporting</h3>
+            <div class="tool-row">
+              <div class="tool" title="Google Sheets"><img class="tool__logo"
+                  src="https://cdn.simpleicons.org/googlesheets" alt="" data-fallback="GS"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Google
+                  Sheets</span></div>
+              <div class="tool" title="Excel"><img class="tool__logo" src="https://cdn.simpleicons.org/microsoftexcel"
+                  alt="" data-fallback="XL"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Excel</span>
+              </div>
+              <div class="tool" title="Canva"><img class="tool__logo" src="https://cdn.simpleicons.org/canva" alt=""
+                  data-fallback="CV"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Canva</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-group reveal">
+            <h3 class="tool-group__title">Development</h3>
+            <div class="tool-row">
+              <div class="tool" title="VS Code"><img class="tool__logo"
+                  src="https://cdn.simpleicons.org/visualstudiocode" alt="" data-fallback="VS"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>VS
+                  Code</span></div>
+              <div class="tool" title="WordPress"><img class="tool__logo" src="https://cdn.simpleicons.org/wordpress"
+                  alt="" data-fallback="WP"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>WordPress</span>
+              </div>
+              <div class="tool" title="Figma"><img class="tool__logo" src="https://cdn.simpleicons.org/figma" alt=""
+                  data-fallback="FG"
+                  onerror="this.onerror=null;this.outerHTML='<div class=&quot;tool-logo-fallback&quot;>'+(this.dataset.fallback||'')+'</div>'"><span>Figma</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK / CASE STUDIES ============ -->
+    <section class="section section--alt" id="work">
+      <div class="section__inner">
+        <p class="eyebrow">Featured Project</p>
+        <h2 class="h2">SEO case study: a blog site, optimized &amp; audited end-to-end</h2>
+        <p class="section__intro">
+          To put SEO fundamentals into practice, I built a blog website from scratch (HTML/CSS, deployed on Vercel)
+          and ran it through a full SEO workflow — keyword research through a complete technical audit.
+          See the process breakdown below, and the evidence from each stage.
+        </p>
+
+        <ul class="tag-list tag-list--pills">
+          <li>keyword research</li>
+          <li>On-Page SEO</li>
+          <li>Technical SEO</li>
+          <li>HTML / CSS</li>
+          <li>Google Search Console</li>
+        </ul>
+
+
+        <div class="project-links">
+          <!-- TODO: replace # with your live deployment + sheet links -->
+          <a href="https://docs.google.com/spreadsheets/d/1LhnA_1WlY_mqQitZbb48GyqfN5cDWVsdSeKxNMBHJfQ/edit?usp=sharing" class="link-arrow" target="_blank">Keyword research sheet →</a>
+        </div>
+
+        <div class="media-grid">
+          <div class="media-item reveal">
+            <div class="media-slot" data-type="image">
+              <img src="images/kw.JPG" alt="">
+            </div>
+            <p class="media-item__caption">Keyword research (Google Keyword Planner)</p>
+          </div>
+
+          <div class="media-item reveal">
+            <div class="media-slot" data-type="image">
+             <img src="images/competitor analysis.JPG" alt="">
+            </div>
+            <p class="media-item__caption">Competitor analysis (recorded in Sheets)</p>
+          </div>
+
+          <div class="media-item reveal">
+            <div class="media-slot" data-type="image">
+              <img src="images/on-page seo.JPG" alt="">
+            </div>
+            <p class="media-item__caption">On-page SEO (titles, meta, headings, URLs)</p>
+          </div>
+
+          <div class="media-item reveal">
+            <div class="media-slot" data-type="image">
+              <img src="images/technical seo.JPG" alt="">
+            </div>
+            <p class="media-item__caption">Technical check (mobile &amp; speed)</p>
+          </div>
+
+          <div class="media-item reveal">
+            <div class="media-slot" data-type="image">
+              <img src="images/search console.JPG" alt="">
+            </div>
+            <p class="media-item__caption">Search Console submission</p>
+          </div>
+
+          <div class="media-item reveal">
+            <a class="media-slot media-slot--pdf" href="images/homefit-hub_seo_audit_report.pdf" target="_blank" rel="noopener">
+              <svg class="media-slot--pdf__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M7 3h7l4 4v14H7z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+                <path d="M14 3v4h4" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+              </svg>
+              <span class="media-slot--pdf__label">View PDF report</span>
+            </a>
+            <p class="media-item__caption">Final site audit report</p>
+          </div>
+        </div>
+
+        <!-- Secondary case study -->
+        <div class="project-card reveal">
+          <div class="project-card__copy">
+            <h3 class="h3">HomeFit Hub — a home-fitness blog website</h3>
+            <p>
+              A three-page blog website I researched, wrote and built for the home-fitness niche — a landing page,
+              a workout program page, and an equipment &amp; schedule guide — designed, coded and deployed live on
+              Vercel. Keyword research and content briefs shaped each page's structure, headings and internal
+              links, so a reader can move from "no gym, no problem" straight through to a specific weekly routine.
+            </p>
+            <ul class="tag-list">
+              <li>Blog Website</li>
+              <li>Keyword Research</li>
+              <li>Content Briefs</li>
+              <li>Internal Linking</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://homefit-hub.vercel.app/" class="link-arrow" target="_blank" rel="noopener">Visit HomeFit Hub →</a>
+            </div>
+          </div>
+          <div class="project-card__media">
+            <div class="media-slot">
+              <img src="images/blog.png" alt="HomeFit Hub website homepage">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="section__inner">
+        <p class="eyebrow">How I Work</p>
+        <h2 class="h2">My SEO project workflow</h2>
+
+        <ol class="timeline">
+          <li class="timeline__step reveal">
+            <span class="timeline__num">01</span>
+            <div>
+              <h3 class="timeline__title">Keyword research</h3>
+              <p>Identify high-intent search terms using Google Keyword Planner.</p>
+            </div>
+          </li>
+          <li class="timeline__step reveal">
+            <span class="timeline__num">02</span>
+            <div>
+              <h3 class="timeline__title">Competitor analysis</h3>
+              <p>Review competing content and record findings in a Google Sheet.</p>
+            </div>
+          </li>
+          <li class="timeline__step reveal">
+            <span class="timeline__num">03</span>
+            <div>
+              <h3 class="timeline__title">On-site SEO</h3>
+              <p>Optimize titles, meta descriptions, headings, and images; build clean, structured URLs.</p>
+            </div>
+          </li>
+          <li class="timeline__step reveal">
+            <span class="timeline__num">04</span>
+            <div>
+              <h3 class="timeline__title">Technical SEO</h3>
+              <p>Check mobile responsiveness, page loading speed, and overall site performance.</p>
+            </div>
+          </li>
+          <li class="timeline__step reveal">
+            <span class="timeline__num">05</span>
+            <div>
+              <h3 class="timeline__title">Submit &amp; audit</h3>
+              <p>Upload to Google Search Console, then generate a comprehensive report through a full site audit.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--alt" id="contact">
+      <div class="section__inner section__inner--narrow contact">
+        <p class="eyebrow">Contact</p>
+        <h2 class="h2">Let's talk about your site's search visibility</h2>
+        <p class="section__intro">
+          Open to Junior SEO Analyst, SEO Analyst, and SEO Specialist roles. Reach out — I reply quickly.
+        </p>
+
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:vskavi20@gmail.com">
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">vskavi20@gmail.com</span>
+          </a>
+          <a class="contact-card" href="tel:+917538866406">
+            <span class="contact-card__label">Phone</span>
+            <span class="contact-card__value">+91 75388 66406</span>
+          </a>
+          <div class="contact-card contact-card--static">
+            <span class="contact-card__label">Location</span>
+            <span class="contact-card__value">Tenkasi, Tamil Nadu</span>
+          </div>
+         
+          <!-- TODO: replace with your LinkedIn profile URL -->
+          <a class="contact-card" href="#" target="_blank" rel="noopener">
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">Add your profile URL</span>
+          </a>
+          
+        </div>
+
+        <a href="mailto:vskavi20@gmail.com?subject=SEO%20Analyst%20Role%20-%20Let%27s%20connect"
+          class="btn btn--primary contact__cta">Email me</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Kavi VS — Designed &amp; built by Kavi VS</p>
+    <button class="footer__top" id="back-to-top" aria-label="Back to top">↑ Top</button>
+  </footer>
+
+  <!-- ============ LIGHTBOX (click any project screenshot to view full size) ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged screenshot" aria-hidden="true">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close">&times;</button>
+    <img class="lightbox__img" id="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
