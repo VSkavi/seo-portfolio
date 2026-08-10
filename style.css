@@ -319,7 +319,12 @@ button { font-family: inherit; cursor: pointer; }
   padding: 40px;
   align-items: start;
   box-shadow: var(--shadow-sm);
+  margin-bottom: 64px;
 }
+
+/* Sub-block within #work that follows the case studies (was previously
+   separated by a stray <br>, causing inconsistent spacing) */
+.work-process { margin-top: 8px; }
 .project-card__media { margin: 0; }
 .project-card__media .media-slot {
   aspect-ratio: 4 / 3;
@@ -441,6 +446,41 @@ button { font-family: inherit; cursor: pointer; }
   font-style: italic;
 }
 
+/* ---------- Certification ---------- */
+.certification-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 36px;
+}
+.certification-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.certification-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.certification-card__media {
+  aspect-ratio: 4 / 3;
+  background: var(--cream-alt);
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+.certification-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.certification-card__copy { padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 8px; }
+.certification-card__title { font-size: 1.05rem; margin-bottom: 0; }
+.certification-card__copy p { font-family: var(--font-mono); font-size: 0.76rem; color: var(--ink-soft); margin: 0; }
+.certification-card__copy .link-arrow { margin-top: 4px; }
+
 /* ---------- Process timeline ---------- */
 .timeline { position: relative; margin-top: 40px; max-width: 640px; }
 .timeline::before {
@@ -552,6 +592,7 @@ body.lightbox-open { overflow: hidden; }
   .media-slot__dropzone--round { max-width: 160px; }
   .project-card { grid-template-columns: 1fr; }
   .media-grid { grid-template-columns: repeat(2, 1fr); }
+  .certification-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 768px) {
@@ -574,6 +615,7 @@ body.lightbox-open { overflow: hidden; }
   .section { padding: 68px 20px; }
   .skills-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
+  .certification-grid { grid-template-columns: 1fr; }
   .footer { flex-direction: column; gap: 14px; text-align: center; }
 }
 
